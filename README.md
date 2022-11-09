@@ -4,6 +4,9 @@
 - you can set 6 diffrend driving `styles`.
 - you can edit this in the config file if needed, look at (`Config.DriveStyles`).
 
+## Screenshot
+![foto1](https://www.madirc.nl/fivem/autopilot.png)
+
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core) (Required)
 - [qb-menu](https://github.com/qbcore-framework/qb-menu) (Required)
