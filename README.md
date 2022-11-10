@@ -32,13 +32,6 @@
 - You can add more drive styles to the `config.lua`
 - it will show automatic in the `Autopilot` menu.
 
-## Add in `resources/[qb]/qb-smallresources/client/seatbelt.lua` 
-- under the `ToggleHarness()` function after the last `end` of this function.
-```lua
--- for mh-autopilot
-exports('ToggleHarness', ToggleHarness)
-```
-
 ## 🙈 Youtube & Discord
 - [Youtube](https://www.youtube.com/@MaDHouSe79) for videos
 - [Discord](https://discord.gg/cEMSeE9dgS)
