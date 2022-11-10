@@ -10,7 +10,6 @@ local body = 0.0
 local engine = 0.0
 local dirt = 0.0
 local normalSpeed = 0.0
-local driveType = nil
 
 local function Stop(mode)
     autopilot = false
@@ -69,7 +68,6 @@ end)
 
 RegisterNetEvent('mh-autopilot:client:start', function(drivemode)
     local speed = Config.DriveStyles[drivemode].speed
-    driveType = drivemode
     Start(speed, Config.DriveStyles[drivemode].style)
 end)
 
