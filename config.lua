@@ -4,12 +4,6 @@
 
 Config = {}
 
--- dont forget to add the export from the README.MD file
-Config.UseAutoHarness = false -- toggle harnass when enable autopilot (to not fly out of the vehicle when crash)
-Config.HarnassScript = "qb-smallresources" -- to toggle the harnass on & off
--- dont forget to add the export from the README.MD file
-
-
 Config.DriveStyles = {
     ['reverse'] = {              -- style id
         name = "reverse",        -- style name
