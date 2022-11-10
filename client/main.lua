@@ -21,7 +21,6 @@ local function Stop(mode)
         FreezeEntityPosition(vehicle, true)
         ClearVehicleTasks(vehicle)
         ClearPedTasks(player)
-        if Config.UseAutoHarness then exports['qb-smallresources']:ToggleHarness() end
         if mode == "nofuel" then QBCore.Functions.Notify(Lang:t('notify.no_fuel'), "error") end
         if mode == "ondestination" then QBCore.Functions.Notify(Lang:t('notify.on_destination'), "success") end
         QBCore.Functions.Notify(Lang:t('notify.disabled'), "success")
@@ -40,7 +39,6 @@ local function Start(speed, style)
     local player = PlayerPedId()
     if IsPedInAnyVehicle(player) then
         if DoesBlipExist(GetFirstBlipInfoId(8)) then
-            if Config.UseAutoHarness then exports['qb-smallresources']:ToggleHarness() end
             local blip = GetFirstBlipInfoId(8)
             local bCoords = GetBlipCoords(blip)
             final_destination = bCoords
