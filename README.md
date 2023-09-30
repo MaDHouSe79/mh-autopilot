@@ -53,5 +53,5 @@
 - You can add more drive styles to the `config.lua`
 - it will show automatic in the `Autopilot` menu.
 
-## 🙈 Youtube & Discord
+## 🙈 Youtube
 - [Youtube](https://www.youtube.com/@MaDHouSe79) for videos
